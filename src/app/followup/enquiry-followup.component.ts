@@ -19,11 +19,11 @@ export class EnquiryFollowupComponent implements OnInit {
   private gridApi;
   private gridColumnApi;
   private rowData: any[];
-  private columnDefs;
+  public columnDefs;
   private rowDatas;
-  private context;
-  private frameworkComponents;
-  private rowSelection;
+  public context;
+  public frameworkComponents;
+  public rowSelection;
 
   currentDate: Date = new Date();
   private settings: AppSettings;

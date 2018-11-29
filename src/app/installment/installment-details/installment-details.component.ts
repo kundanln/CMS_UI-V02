@@ -64,11 +64,11 @@ export class InstallmentDetailsComponent implements OnInit {
   private gridApi;
   private gridColumnApi;
   private rowData: any[];
-  private columnDefs;
+  public columnDefs;
   private rowDatas;
-  private context;
-  private frameworkComponents;
-  private rowSelection;
+  public context;
+  public frameworkComponents;
+  public rowSelection;
   private getRowNodeId;
   private defaultColDef;
 

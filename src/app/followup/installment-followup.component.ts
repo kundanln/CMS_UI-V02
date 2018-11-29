@@ -18,11 +18,11 @@ export class InstallmentFollowupComponent implements OnInit {
   private gridApi;
   private gridColumnApi;
   private rowData: any[];
-  private columnDefs;
+  public columnDefs;
   private rowDatas;
-  private context;
-  private frameworkComponents;
-  private rowSelection;
+  public context;
+  public frameworkComponents;
+  public rowSelection;
   private today;
   currentDate: Date = new Date();
   private settings: AppSettings;

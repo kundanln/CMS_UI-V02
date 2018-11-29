@@ -29,11 +29,11 @@ export class AdmissionListComponent implements OnInit {
     private gridApi;
     private gridColumnApi;
     private rowData: admissionModel[];
-    private columnDefs;
+    public columnDefs;
     private rowDatas;
-    private context;
-    private frameworkComponents;
-    private rowSelection;
+    public context;
+    public frameworkComponents;
+    public rowSelection;
 
     constructor(
         private router: Router,

@@ -18,14 +18,14 @@ export class DueListComponent implements OnInit {
   private gridApi;
   private gridColumnApi;
   private rowData: any[];
-  private columnDefs;
+  public columnDefs;
 
 
   private rowDatas;
-  private context;
-  private frameworkComponents;
+  public context;
+  public frameworkComponents;
   private installmentTillDate;
-  private rowSelection;
+  public rowSelection;
   private settings: AppSettings;
   private installmentFollowupDays: number;
   currentDate: Date = new Date();

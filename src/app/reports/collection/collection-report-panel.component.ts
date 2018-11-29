@@ -13,14 +13,14 @@ export class CollectionReportPanelComponent implements OnInit {
   private gridApi;
   private gridColumnApi;
   private rowData: any[];
-  private columnDefs;
+  public columnDefs;
 
 
   private rowDatas;
-  private context;
-  private frameworkComponents;
+  public context;
+  public frameworkComponents;
 
-  private rowSelection;
+  public rowSelection;
 
   fromDate : string ;
   toDate : string ;

@@ -1,11 +1,9 @@
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-//mport { InstallmentDetail } from '../../../_models';
+
 
 import { GenrateInvoiceButton } from './genrate-invoice-button';
-
-//import { InstallmentDetail } from '../../_models/installmentDetail';
-import { InstallmentDetail } from '../../../_models';
+import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
@@ -32,11 +30,11 @@ export class InstallmentListComponent implements OnInit {
   private gridApi;
   private gridColumnApi;
   private rowData: any[];
-  private columnDefs;
+  public columnDefs;
   private rowDatas;
-  private context;
-  private frameworkComponents;
-  private rowSelection;
+  public context;
+  public frameworkComponents;
+  public rowSelection;
   private getRowNodeId;
   private defaultColDef;
 
