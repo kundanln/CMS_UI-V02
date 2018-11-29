@@ -31,7 +31,7 @@ export class DoEnquiryFallowUpComponent implements OnInit {
     logInDate: Date = new Date();
     user: UserModel;
 
-    private datePickerConfig: Partial<BsDatepickerConfig>;
+    public datePickerConfig: Partial<BsDatepickerConfig>;
 
     constructor(
         private router: Router,

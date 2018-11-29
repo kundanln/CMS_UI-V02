@@ -26,10 +26,10 @@ export class InstallmentDetailsComponent implements OnInit {
 
   //buttons
   payButtonStatus: boolean;
-  private buttonAddUpdate: string = "Add"
+  public buttonAddUpdate: string = "Add"
   private addButtonStatus: boolean = false;
   
-  private saveAfterEditButtonStatus: boolean = true;
+  public saveAfterEditButtonStatus: boolean = true;
 
   //to applay ready only property on some input field
   private buttonStatus: boolean = false;
@@ -43,9 +43,9 @@ export class InstallmentDetailsComponent implements OnInit {
   datePickerConfig: Partial<BsDatepickerConfig>;
 
 
-  private name: string;
-  private course: string;
-  private total: number;
+  public name: string;
+  public course: string;
+  public total: number;
 
   //form
   @ViewChild('modelForm')
@@ -69,8 +69,8 @@ export class InstallmentDetailsComponent implements OnInit {
   public context;
   public frameworkComponents;
   public rowSelection;
-  private getRowNodeId;
-  private defaultColDef;
+  public getRowNodeId;
+  public defaultColDef;
 
   private ediStatus: boolean = false;
   private oldValue: number;

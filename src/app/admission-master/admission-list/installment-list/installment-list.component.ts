@@ -3,7 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 
 import { GenrateInvoiceButton } from './genrate-invoice-button';
-import { InstallmentDetail } from '../../../_models/installment-detail';
+import { InstallmentDetail } from '../../../_models';
+//import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
@@ -36,7 +37,7 @@ export class InstallmentListComponent implements OnInit {
   public frameworkComponents;
   public rowSelection;
   private getRowNodeId;
-  private defaultColDef;
+  public defaultColDef;
 
 
   constructor(private _route: ActivatedRoute,

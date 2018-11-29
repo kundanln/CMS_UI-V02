@@ -17,7 +17,7 @@ import { InvoiceService } from '../../_services/invoice.service';
 })
 export class PayModeComponent implements OnInit {
 
-    private showLoadingIndicator : boolean=false;
+    public showLoadingIndicator : boolean=false;
     display = "none";
 
     dataForInvoice: InvoiceModel;
