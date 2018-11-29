@@ -25,7 +25,7 @@ export class DoInstallmentFallowUpComponent implements OnInit {
     public modelFormref: NgForm;
 
     private selectedId: number;
-    private dateWiseComentList: any[];
+    public dateWiseComentList: any[];
     logInDate: Date = new Date();
 
     datePickerConfig: Partial<BsDatepickerConfig>;

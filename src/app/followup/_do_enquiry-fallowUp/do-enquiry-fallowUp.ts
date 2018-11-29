@@ -27,7 +27,7 @@ export class DoEnquiryFallowUpComponent implements OnInit {
     public modelFormref: NgForm;
 
     private selectedId: number;
-    private dateWiseComentList: any[];
+    public dateWiseComentList: any[];
     logInDate: Date = new Date();
     user: UserModel;
 
