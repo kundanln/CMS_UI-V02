@@ -22,11 +22,11 @@ export class CourseListComponent implements OnInit {
     private gridApi;
     private gridColumnApi;
     public rowData: any[];
-    private columnDefs;
+    public columnDefs;
     private rowDatas;
-    private context;
-    private frameworkComponents;
-    private rowSelection;
+    public context;
+    public frameworkComponents;
+    public rowSelection;
 
     constructor(
         private router: Router,
