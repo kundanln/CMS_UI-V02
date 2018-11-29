@@ -95,7 +95,7 @@ export class CollectionReportPanelComponent implements OnInit {
 
   }
 
-  onSelectionChanged($event: any) {
+  onSelectionChanged() {
     var selectedRows = this.gridApi.getSelectedRows();
     var selectedRowsString:number;
     selectedRows.forEach(function(selectedRow, index) {
