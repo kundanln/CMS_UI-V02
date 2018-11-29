@@ -1,9 +1,9 @@
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-//import { InstallmentDetail } from '../../../_models';
+import { InstallmentDetail } from '../../../_models';
 
 import { GenrateInvoiceButton } from './genrate-invoice-button';
-import { InstallmentDetail } from 'src/app/_models';
+//import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
   selector: 'app-installment-list',
