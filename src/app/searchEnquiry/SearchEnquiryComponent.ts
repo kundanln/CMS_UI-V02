@@ -5,7 +5,7 @@ import { EnquiryService } from "../_services/enquiry.service";
 @Component({
 
     selector: `search-enquiry`,
-    templateUrl: 'SearchEnquiry.html',
+    templateUrl: 'searchEnquiry.html',
     styleUrls: ['./searchEnquiryComponent.css']
 })
 export class SearchEnquiryComponent implements OnInit{
