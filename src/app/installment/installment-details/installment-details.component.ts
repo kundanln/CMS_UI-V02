@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormBuilder, FormGroup, FormArray, NgForm } from '@angular/forms';
-import { InstallmentDetail } from '../../_models';
+//import { InstallmentDetail } from '../../_models';
 import { DateCellRenderer } from './installment-date';
 import { CurrencyCellRenderer } from './installment-currency';
 import { PayInstallmentButton } from './pay-installment-button';
@@ -10,7 +10,7 @@ import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker';
 import { DatePipe } from '@angular/common';
 import { DueListService } from '../../_services/due-list.service';
 //import { InstallmentDetail } from 'src/app/_models';
-//import { InstallmentDetail } from 'src/app/_models/installmentDetail';
+import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 
 @Component({
   selector: 'app-installment-details',
