@@ -1,5 +1,5 @@
 import { Course } from "./course";
-import { InstallmentDetail } from "./installmentDetail";
+import { InstallmentDetail } from '../_models';
 
 export class RegistrationModel {
 
