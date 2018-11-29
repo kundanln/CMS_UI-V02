@@ -1,9 +1,12 @@
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-//import { InstallmentDetail } from '../../../_models';
+//mport { InstallmentDetail } from '../../../_models';
 
 import { GenrateInvoiceButton } from './genrate-invoice-button';
 import { InstallmentDetail } from 'src/app/_models/installmentDetail';
+//import { InstallmentDetail } from '../../_models/installmentDetail';
+
+//import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
