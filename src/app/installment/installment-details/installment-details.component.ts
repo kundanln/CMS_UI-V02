@@ -9,7 +9,8 @@ import { EditUpdateButton } from './edit-update-button';
 import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker';
 import { DatePipe } from '@angular/common';
 import { DueListService } from '../../_services/due-list.service';
-import { InstallmentDetail } from '../../_models/installmentDetail';
+import { InstallmentDetail } from '../../_models';
+
 //import { InstallmentDetail } from 'src/app/_models';
 //import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 
