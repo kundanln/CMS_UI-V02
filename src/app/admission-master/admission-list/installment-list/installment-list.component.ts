@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 
 import { GenrateInvoiceButton } from './genrate-invoice-button';
-import { InstallmentDetail } from '../../../_models';
+import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
@@ -29,9 +29,9 @@ export class InstallmentListComponent implements OnInit {
   //ag-grid
   private gridApi;
   private gridColumnApi;
-  private rowData: any[];
+  public rowData: any[];
   public columnDefs;
-  private rowDatas;
+  public rowDatas;
   public context;
   public frameworkComponents;
   public rowSelection;

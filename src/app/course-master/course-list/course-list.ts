@@ -23,7 +23,7 @@ export class CourseListComponent implements OnInit {
     private gridColumnApi;
     public rowData: any[];
     public columnDefs;
-    private rowDatas;
+    public rowDatas;
     public context;
     public frameworkComponents;
     public rowSelection;

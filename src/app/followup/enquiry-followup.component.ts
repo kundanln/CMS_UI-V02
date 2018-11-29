@@ -18,9 +18,9 @@ export class EnquiryFollowupComponent implements OnInit {
 
   private gridApi;
   private gridColumnApi;
-  private rowData: any[];
+  public rowData: any[];
   public columnDefs;
-  private rowDatas;
+  public rowDatas;
   public context;
   public frameworkComponents;
   public rowSelection;

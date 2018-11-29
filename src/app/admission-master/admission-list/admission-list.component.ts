@@ -28,9 +28,9 @@ export class AdmissionListComponent implements OnInit {
     //ag-grid
     private gridApi;
     private gridColumnApi;
-    private rowData: admissionModel[];
+    public rowData: admissionModel[];
     public columnDefs;
-    private rowDatas;
+    public rowDatas;
     public context;
     public frameworkComponents;
     public rowSelection;
