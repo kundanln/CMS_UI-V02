@@ -25,14 +25,15 @@ export class InstallmentDetailsComponent implements OnInit {
   //  myForm: FormGroup;
 
   //buttons
+
   payButtonStatus: boolean;
   public buttonAddUpdate: string = "Add"
-  private addButtonStatus: boolean = false;
+  public addButtonStatus: boolean = false;
   
   public saveAfterEditButtonStatus: boolean = true;
 
   //to applay ready only property on some input field
-  private buttonStatus: boolean = false;
+  public buttonStatus: boolean = false;
 
   //private payButtonStatus : boolean;
 
