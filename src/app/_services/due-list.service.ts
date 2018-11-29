@@ -3,7 +3,8 @@ import { HttpClient, HttpHeaders, HttpResponse } from "@angular/common/http";
 
 import { Observable } from "rxjs/Observable";
 import "rxjs/add/operator/map";
-import { InstallmentDetail } from "../_models";
+import { InstallmentDetail } from "../_models/installmentDetail";
+//import { InstallmentDetail } from "../_models";
 
 
 @Injectable()
