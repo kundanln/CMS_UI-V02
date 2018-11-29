@@ -6,7 +6,6 @@ import { GenrateInvoiceButton } from './genrate-invoice-button';
 import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from '../../_models/installmentDetail';
 
-//import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
