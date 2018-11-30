@@ -9,7 +9,7 @@ app.use(express.static('./dist/CMS-v02'));
 
 app.get('/*', function(req,res) {
     
-res.sendFile(path.join(__dirname,'/dist/CMS-v02/index.html'));
+res.sendFile(path.join(__dirname,'./dist/CMS-v02/index.html'));
 });
 
 // Start the app by listening on the default Heroku port
