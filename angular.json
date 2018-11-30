@@ -108,6 +108,10 @@
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
             "devServerTarget": "CMS-v02:serve"
+		"configurations": {
+            "production": {
+              "devServerTarget": "CMS-v02:serve:production"
+            }
           }
         },
         "lint": {

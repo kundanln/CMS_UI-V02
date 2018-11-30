@@ -3,8 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 
 import { GenrateInvoiceButton } from './genrate-invoice-button';
-import { InstallmentDetail } from '../../../_models';
-//import { InstallmentDetail } from 'src/app/_models/installmentDetail';
+import { InstallmentDetail } from 'src/app/_models/installmentDetail';
 //import { InstallmentDetail } from 'src/app/_models';
 
 @Component({
